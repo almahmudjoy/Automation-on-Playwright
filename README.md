@@ -49,31 +49,31 @@ The smoke suite contains positive page-load checks for Login, Registration, and 
 
 ```text
 .
-â”œâ”€â”€ data/
-â”‚   â””â”€â”€ testData.ts
-â”œâ”€â”€ docs/
-â”‚   â””â”€â”€ evidence/
-â”œâ”€â”€ pages/
-â”‚   â”œâ”€â”€ AdminPage.ts
-â”‚   â”œâ”€â”€ AgentPage.ts
-â”‚   â”œâ”€â”€ LoginPage.ts
-â”‚   â”œâ”€â”€ PasswordResetPage.ts
-â”‚   â”œâ”€â”€ PaymentPage.ts
-â”‚   â”œâ”€â”€ SignupPage.ts
-â”‚   â””â”€â”€ SystemPage.ts
-â”œâ”€â”€ reports/
-â”‚   â””â”€â”€ self_statement_2026-10-09.csv
-â”œâ”€â”€ tests/
-â”‚   â”œâ”€â”€ regression/
-â”‚   â”‚   â””â”€â”€ dmoney-regression.spec.ts
-â”‚   â””â”€â”€ smoke/
-â”‚       â””â”€â”€ dmoney-smoke.spec.ts
-â”œâ”€â”€ utils/
-â”‚   â””â”€â”€ GmailClient.ts
-â”œâ”€â”€ .env
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ package.json
-â””â”€â”€ playwright.config.ts
+|-- data/
+|   `-- testData.ts
+|-- docs/
+|   `-- evidence/
+|-- pages/
+|   |-- AdminPage.ts
+|   |-- AgentPage.ts
+|   |-- LoginPage.ts
+|   |-- PasswordResetPage.ts
+|   |-- PaymentPage.ts
+|   |-- SignupPage.ts
+|   `-- SystemPage.ts
+|-- reports/
+|   `-- self_statement_2026-10-09.csv
+|-- tests/
+|   |-- regression/
+|   |   `-- dmoney-regression.spec.ts
+|   `-- smoke/
+|       `-- dmoney-smoke.spec.ts
+|-- utils/
+|   `-- GmailClient.ts
+|-- .env
+|-- .gitignore
+|-- package.json
+`-- playwright.config.ts
 ```
 
 ## Setup
@@ -159,7 +159,7 @@ The smoke checks cover successful loads of the Login, Registration, and Forgot P
 
 Abdullah Al Mahmud Joy
 
-Full Stack SDET â€” Road to SDET
+Full Stack SDET - Road to SDET
 
 M.Sc. in Computer Science & Engineering, Military Institute of Science and Technology (MIST)
 
