@@ -32,7 +32,8 @@ export default defineConfig({
 
   headless: false,
 
-  screenshot: 'only-on-failure',
+  //screenshot: 'only-on-failure',
+  screenshot: 'on',
 
   video: 'on',
 

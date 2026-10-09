@@ -1,10 +1,20 @@
+
 {
   "name": "dmoney-playwright-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "DMoney Playwright Automation Assignment",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+  "test": "playwright test --headed --project=chromium",
+  "test:regression": "playwright test tests/regression/dmoney-regression.spec.ts --headed --project=chromium",
+  "test:smoke": "playwright test tests/smoke/dmoney-smoke.spec.ts --headed --project=chromium"
+},
+  "keywords": [
+    "playwright",
+    "automation",
+    "dmoney",
+    "testing"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
